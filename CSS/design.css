@@ -1,0 +1,30 @@
+.celdas {
+    border: 2px solid blue;
+    padding: 8px;
+    margin: 2px;
+}
+
+.contenedor {
+    border: 3px solid #121516;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+p {
+    align-self: center;
+    font-size: 100px;
+    color: red;
+}
+
+.Cartilla {
+    border: 3px solid #121516;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/*#cuerposh {
+    border: 3px solid #159357;
+}*/

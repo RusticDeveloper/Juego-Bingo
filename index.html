@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/design.css">
+    <title>bingo</title>
+
+</head>
+
+<body onload="tablas.crear()">
+    <center>
+        <H1>BINGO MILLONARIO</H1>
+    </center>
+    <br><br>
+    <div class="contenedor" id="container">
+    </div>
+    <br><br>
+    <button onclick="detener=false" id="juegar">JUGAR</button>
+    <br><br>
+    <button onclick="detener=true" id="bingao">DETENTE BITCH</button>
+    <br><br>
+    <p id="numero"></p>
+
+    <br><br> Cuantas Cartillas Desea: <input type="number" id="numCart"> &emsp;&emsp;
+    <button onclick="tablas.crearCartillas()">Crear cartillas</button>
+    <br><br><br><br>
+    <div id="cuerposh"></div>
+
+</body>
+<script src="tablero.js"></script>
+
+</html>
